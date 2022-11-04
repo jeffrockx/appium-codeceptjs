@@ -1,0 +1,343 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-11-03T20:32:19.504Z",
+    "end": "2022-11-03T20:33:04.250Z",
+    "duration": 44746,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "63b847ca-18af-4105-b342-71e0ccaf1da4",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [
+        {
+          "title": "\"before all\" hook in \"{root}\"",
+          "fullTitle": "\"before all\" hook in \"{root}\"",
+          "timedOut": false,
+          "duration": 1,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "console.log('Before')",
+          "err": {},
+          "uuid": "bf285967-68c7-481c-bb0e-5eb33cb49b8b",
+          "parentUUID": "63b847ca-18af-4105-b342-71e0ccaf1da4",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8bce4917-ed9d-4dfd-a384-8267161427f1",
+          "title": "login",
+          "fullFile": "C:\\Users\\eduar\\Documents\\FRAMEWORKS DE TESTES\\APPIUM\\ProjetoTeste\\tests\\login_test.js",
+          "file": "\\tests\\login_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"login\"",
+              "fullTitle": "login \"before all\" hook: codeceptjs.beforeSuite in \"login\"",
+              "timedOut": false,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "7fa641c7-85e8-41c0-bf73-dc871afd385a",
+              "parentUUID": "8bce4917-ed9d-4dfd-a384-8267161427f1",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before all\" hook: BeforeSuite in \"login\"",
+              "fullTitle": "login \"before all\" hook: BeforeSuite in \"login\"",
+              "timedOut": false,
+              "duration": 10,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('BeforeSuite')",
+              "err": {},
+              "uuid": "14ed355c-62ae-4f50-a598-a9290015b359",
+              "parentUUID": "8bce4917-ed9d-4dfd-a384-8267161427f1",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"login\"",
+              "fullTitle": "login \"before each\" hook: codeceptjs.before in \"login\"",
+              "timedOut": false,
+              "duration": 6246,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "06ca032f-87a8-401e-8538-d4a15cd6aad6",
+              "parentUUID": "8bce4917-ed9d-4dfd-a384-8267161427f1",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"login\"",
+              "fullTitle": "login \"after all\" hook: codeceptjs.afterSuite in \"login\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "08901ecf-9449-4fae-8203-9f625d1fe3f5",
+              "parentUUID": "8bce4917-ed9d-4dfd-a384-8267161427f1",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"login\"",
+              "fullTitle": "login \"after each\" hook: finalize codeceptjs in \"login\"",
+              "timedOut": false,
+              "duration": 494,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "9f78c90c-5b47-4967-a6de-a006b41539e4",
+              "parentUUID": "8bce4917-ed9d-4dfd-a384-8267161427f1",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login com sucesso",
+              "fullTitle": "login: Login com sucesso",
+              "timedOut": false,
+              "duration": 5773,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login_page.login('teste@teste.com', '123456')\n    home_page.checkLoginSuccess()",
+              "err": {},
+              "uuid": "21994546-8d38-4ac5-9a54-5103f640ec39",
+              "parentUUID": "8bce4917-ed9d-4dfd-a384-8267161427f1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login sem sucesso",
+              "fullTitle": "login: Login sem sucesso",
+              "timedOut": false,
+              "duration": 6229,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login_page.login('teste@teste.com', '1234567')\n    login_page.checkLoginError()",
+              "err": {},
+              "uuid": "429e2b15-a189-437e-b601-875cf17c1685",
+              "parentUUID": "8bce4917-ed9d-4dfd-a384-8267161427f1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "21994546-8d38-4ac5-9a54-5103f640ec39",
+            "429e2b15-a189-437e-b601-875cf17c1685"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12002,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "5346d469-91a2-4999-9c70-63022530e927",
+          "title": "Students",
+          "fullFile": "C:\\Users\\eduar\\Documents\\FRAMEWORKS DE TESTES\\APPIUM\\ProjetoTeste\\tests\\students_test.js",
+          "file": "\\tests\\students_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Students\"",
+              "fullTitle": "Students \"before all\" hook: codeceptjs.beforeSuite in \"Students\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "4e8f2fd1-8a21-4f94-b222-e4a4c80e3c83",
+              "parentUUID": "5346d469-91a2-4999-9c70-63022530e927",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Students\"",
+              "fullTitle": "Students \"before each\" hook: codeceptjs.before in \"Students\"",
+              "timedOut": false,
+              "duration": 6198,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "b0eaa8b6-d836-4d49-aae3-ada13ae44723",
+              "parentUUID": "5346d469-91a2-4999-9c70-63022530e927",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Students\"",
+              "fullTitle": "Students \"after all\" hook: codeceptjs.afterSuite in \"Students\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "125d5d22-772e-4d2d-95f8-d5ea763c56a0",
+              "parentUUID": "5346d469-91a2-4999-9c70-63022530e927",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Students\"",
+              "fullTitle": "Students \"after each\" hook: finalize codeceptjs in \"Students\"",
+              "timedOut": false,
+              "duration": 563,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "b96dbd71-0562-441e-ae02-cc371c40c3ce",
+              "parentUUID": "5346d469-91a2-4999-9c70-63022530e927",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Adiciona estudante com sucesso",
+              "fullTitle": "Students: Adiciona estudante com sucesso",
+              "timedOut": false,
+              "duration": 10753,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login_page.login('teste@teste.com', '123456')\nhome_page.registerStudent('7777', 'Jefferson Xavier')\nhome_page.searchStudent('Jefferson Xavier', '7777')",
+              "err": {},
+              "uuid": "8bc2aa56-3d1e-42a0-9651-b3c4c00b496b",
+              "parentUUID": "5346d469-91a2-4999-9c70-63022530e927",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8bc2aa56-3d1e-42a0-9651-b3c4c00b496b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10753,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.1.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {},
+      "version": "6.2.0"
+    }
+  }
+}
