@@ -23,8 +23,9 @@ exports.config = {
       desiredCapabilities: {
         appPackage: 'com.qazandoapp',
         appActivity: 'MainActivity',
-        device: 'android_device',
-        platformVersion: '9'
+        deviceName: 'android_device',
+        platformVersion: '9',
+        automationName: 'UiAutomator2'
       }
     }
   },
